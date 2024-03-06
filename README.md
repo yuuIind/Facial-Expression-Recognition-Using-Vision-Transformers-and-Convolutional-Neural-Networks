@@ -36,30 +36,28 @@ This project tries to find a lightweight and efficient method to achieve high pe
 
 The proposed method achieves an accuracy of 55.54% on the 8-class facial expression recognition task using the AffectNet database, while utilizing only 5.67M parameters.
 
-Top-1 test set accuracy comparisons. * variants trained without oversampling. For more, please, see [here]()
+Top-1 test set accuracy comparisons. * variants trained without oversampling. For more, please, see [here](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Reports/EE492_PROJECT%20REPORT_M.TASTAN_223SP.pdf)
 
 | Model | Performance | #Params | link |
 | --- | --- | --- | --- |
-| VCCT-1 | 53.49% | 11.26M | [ckpt]() |
-| VCCT-2 | 53.41% | 11.71M |
-| *MCCT-1 | 48.19% | 3.00M |
-| MCCT-1 | 53.24% | 3.00M |
-| *MCCT-2 | 44.16% | 3.44M |
-| MCCT-2 | 54.19% | 3.44M |
-| *MCCT-3 | 41.49% | 3.89M |
-| MCCT-3 | 51.21% | 3.89M |
-| *MCCT-6 | 45.26% | 5.23M |
-| MCCT-6 | 52.79% | 5.23M |
-| *MCCT-7 | 40.79% | 5.67M |
-| MCCT-7 | 55.54% | 5.67M |
+| VCCT-1 | 53.49% | 11.26M | [ckpt](/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| VCCT-2 | 53.41% | 11.71M | [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| *MCCT-1 | 48.19% | 3.00M | [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| MCCT-1 | 53.24% | 3.00M | [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| *MCCT-2 | 44.16% | 3.44M | [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| MCCT-2 | 54.19% | 3.44M | [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| *MCCT-3 | 41.49% | 3.89M | [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| MCCT-3 | 51.21% | 3.89M | [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| *MCCT-6 | 45.26% | 5.23M |  [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| MCCT-6 | 52.79% | 5.23M |  [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| *MCCT-7 | 40.79% | 5.67M |  [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
+| MCCT-7 | 55.54% | 5.67M |  [ckpt](https://github.com/yuuIind/Facial-Expression-Recognition-Using-Vision-Transformers-and-Convolutional-Neural-Networks/blob/main/Models/Checkpoints/MCCT-1_ckpt_10.pt) |
 
 ##
 
 ## License
 
 This project is licensed under the MIT License.
-
-## Acknowledgments
 
 <!--
 ## Installation
